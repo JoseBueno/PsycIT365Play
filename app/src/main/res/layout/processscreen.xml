@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:fillViewport="true">
+    
+  		<LinearLayout
+		android:id="@+id/vLayoutMain"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		 android:layout_gravity="center_horizontal"
+		  android:background="@drawable/background">
+
+			<TextView
+                  android:id="@+id/textBlanks1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                   android:text="@string/blanks" android:layout_gravity="center"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+				<TextView
+                  android:id="@+id/textBlanks2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                   android:text="@string/blanks" android:layout_gravity="center"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+   		<LinearLayout
+          android:id="@+id/hLayoutAltitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" 
+          android:layout_gravity="center_horizontal">
+          	<EditText
+              android:id="@+id/altEntry"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="0" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp"/>
+          	<Spinner
+              android:id="@+id/altChoices"
+              android:layout_width="120dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+			  android:textSize="12sp"/>
+		</LinearLayout>
+      
+   		<LinearLayout
+          android:id="@+id/hLayoutTitleEnteringLeaving"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          	
+			<TextView
+	         android:id="@+id/enteringLabel"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:text="@string/entering" 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+			<TextView
+	         android:id="@+id/blank1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="  " 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+			<TextView
+	         android:id="@+id/leavingLabel"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:text="@string/leaving" 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+		</LinearLayout> 
+         
+         <LinearLayout
+          android:id="@+id/hLayoutEnterLeave1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/leftEntry1"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="70" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/leftChoice1"
+              android:layout_width="75dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+          <EditText
+              android:id="@+id/rightEntry1"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="70" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/rightChoice1"
+              android:layout_width="75dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+      </LinearLayout>
+      
+  <LinearLayout
+          android:id="@+id/hLayoutEnterLeave2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/leftEntry2"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="58" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/leftChoice2"
+              android:layout_width="75dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+          
+          <EditText
+             
+              android:id="@+id/rightEntry2"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="58" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/rightChoice2"
+              android:layout_width="75dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+      </LinearLayout>         
+ 		
+ 
+        
+ 
+ 		<LinearLayout
+          android:id="@+id/hLayoutBottom"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          	<EditText
+              android:id="@+id/bottomEntry"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="100" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/bottomChoice"
+              android:layout_width="120dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+ 
+  	<LinearLayout
+          android:id="@+id/hLayoutProcessLoadsLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+   		<TextView
+         android:id="@+id/processLoadsLabel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/processloads" 
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout> 
+     
+             
+  <LinearLayout
+          android:id="@+id/hLayoutLine1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/line1Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+              android:ems="5" 
+              android:textSize="12sp" />
+          <EditText
+              android:id="@+id/line1Value"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text="0" android:ems="4"
+          	  android:textSize="12sp" />
+        <EditText
+              android:id="@+id/line1Units"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+         	  android:ems="3"
+         	  android:textSize="12sp" />
+</LinearLayout>    
+           
+      
+<LinearLayout
+          android:id="@+id/hLayoutLine2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/line2Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text=" "  
+          	  android:ems="5"
+          	  android:textSize="12sp" />
+          
+           <EditText
+              android:id="@+id/line2Value"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text="0" android:ems="4"
+          	  android:textSize="12sp" />
+    
+           <EditText
+              android:id="@+id/line2Units"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text=" "  android:ems="3"
+          	  android:textSize="12sp" />
+		</LinearLayout>
+    
+        <LinearLayout
+          android:id="@+id/hLayoutLine3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/line3Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+         	  android:ems="5"
+         	  android:textSize="12sp" />
+          
+          <EditText
+              android:id="@+id/line3Value"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text="0" android:ems="4"
+          	  android:textSize="12sp" />
+    
+           <EditText
+              android:id="@+id/line3Units"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+         	  android:ems="3"
+         	  android:textSize="12sp" />
+		</LinearLayout>
+       
+       <LinearLayout
+
+          android:id="@+id/hLayoutLine4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/line4Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:ems="5"
+          	  android:textSize="12sp" />
+          
+           <EditText
+              android:id="@+id/line4Value"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:text="0" android:ems="4"
+          	  android:textSize="12sp" />
+    
+           <EditText
+              android:id="@+id/line4Units"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+         	  android:ems="3"
+         	  android:textSize="12sp" />
+		</LinearLayout>
+         <LinearLayout
+   
+          android:id="@+id/hLayoutLine5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/line5Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none"  android:editable="false"
+         	  android:ems="5"
+         	  android:textSize="12sp" />
+          
+          <EditText
+              android:id="@+id/line5Value"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          android:text="0.0" android:ems="4"
+          android:textSize="12sp" />
+    
+           <EditText
+              android:id="@+id/line5Units"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="none" android:editable="false"
+          	  android:ems="3" 
+          	  android:textSize="12sp" />
+</LinearLayout>
+      
+      
+    </LinearLayout>
+</ScrollView>

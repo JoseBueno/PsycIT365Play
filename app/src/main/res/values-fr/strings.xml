@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="input">Entrée</string>
+    <string name="entering">Saisie</string>
+    <string name="output">Sortie</string>
+    <string name="leaving">Quitter</string>
+    <string name="setasdefaults">Définir par défaut</string>
+    <string name="processloads">Charges de procédé</string>
+    <string name="total">Total</string>
+    <string name="btuh">Btuh</string>
+    <string name="tons">Tons</string>
+    <string name="sensible">Sensible</string>
+    <string name="lbhr">lb/hr</string>
+    <string name="moisture">Moisture</string>
+    <string name="latent">Latent</string>
+    <string name="airstreama">Flux d\'air A</string>
+    <string name="airstreamb">Flux d\'air B</string>
+    <string name="mixedair">Air mixte</string>
+    <string name="point">Point</string>
+    <string name="mixing">Mélange</string>
+    <string name="process">Process</string>
+    <string name="settings">Paramètres</string>
+    <string name="info">Info</string>
+    <string name="exceedslimits">***Dépasse les Limites***</string>
+    <string name="kw">kW</string>
+    <string name="kghr">kg/hr</string>
+
+   
+    <string-array name="USInput3">
+    	<item>Alt in Ft</item>
+    	<item>Inch H2O</item>
+    	<item>Inch Hg</item>
+    	<item>psia</item>
+    	</string-array>
+  
+	<string-array name="USInput12">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item> 	
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+	</string-array> 
+	
+	<string-array name="USOutput">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item>
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+    	<item>"ft\u00B3/lb"</item>
+    	<item>in Hg vp</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"gr/ft\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="USAirFlowRate">
+	    <item>SCFM</item>
+    	<item>ACFM</item>
+	</string-array> 
+   
+ 	<string-array name="MetricInput3">
+    	<item>Alt in m</item>
+    	<item>mm H2O</item>
+    	<item>mm Hg</item>
+    	<item>kPa</item>
+    	</string-array>
+  
+	<string-array name="MetricInput12">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+	</string-array> 
+	
+	<string-array name="MetricOutput">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+    	<item>"m\u00B3/kg"</item>
+    	<item>kPa VP</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"g/m\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="MetricAirFlowRate">
+	    <item>SCMH</item>
+    	<item>ACMH</item>
+	</string-array> 
+	
+<string name = "psyCalcInfo">\n
+La psychrométrie est l\'étude du mélange vapeur d\’eau, vapeur d\’air : 
+température, humidité relative et point de rosée sont des propriétés 
+communes psychrométrique. Psyc-It donne à l\'utilisateur un accès 
+direct à ces propriétés.\n
+\n
+Onglet Punt - trouver des propriétés psychométriques.\n
+Onglet de mixage - effectuer des calculs de mélange d\'air.\n
+Onglet Processus - les calculs de charge de point à point.\n
+Onglet Paramètres - set de démarrage par défaut.\n
+\n
+Pour utiliser Psyc-It activer la saisie en utilisant 
+le bouton à droite de chaque valeur. Entrez les valeurs 
+des propriétés d\'entrée. Résultats à jour immédiatement 
+lors de tout changement.\n
+\n
+\"Dépasse les limites\" est affiché si le calcul est 
+au-delà des limites ou indisponible.\n
+\n
+Valeurs de l’air et vapeur d’eau sur Psyc-It\n
+Psychrometrique -\n
+....°Fts / °Cts – Température sèche\n
+....°Fth / °Cth - Température humide\n
+....%HR – Humidité relative\n
+....Btu/lb / kJ/kg - Enthalpie\n
+....°Fpr / °Cpr - Température point de rosée\n
+....gr/lb / g/kg – Humidité Spécifique\n
+....ft³/lb / m³/kg – Volume Massique\n
+....in Hg / mmg Hg - Pression de Vapeur\n
+....lb/ft³ / kg/m³ - Masse Volumique\n
+....PPMw - Particules Par Million de Masse\n
+....PPMv - Particules Par Million de Volume\n
+....gr/ft³ / g/m³ - Humidité Absolue\n
+\n
+Pression -\n
+....Alt in Ft / m - Altitude (élévation).\n
+....psia / kPa - Pression Absolue.\n
+\n
+Psyc-It Limites -\n
+Température sèche:  °F / ° C\n
+....-80 à 1500  /  -62.2 à 815.5\n
+Point de condensation:  °F / °C\n
+....-80 à 200  /  -62.2 à 93.3\n
+La pression absolue: psia / kPa\n
+....0.7 à 400  13.8 à 2757\n
+\n
+Psyc-It utilise le même moteur de calcul de fonction 
+psychométrique développée par Jim juge, PE pour les 
+produits de la société tels que Linric PsyCalc ® et PsycPro ®.\n
+\n
+Parce que tous les calculs de ce logiciel peuvent être 
+approximatifs : les utilisateurs doivent toujours vérifier 
+que l\’outil Psyc-It est assez précis pour leurs besoins.</string>
+</resources>

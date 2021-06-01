@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="input">Syöttö</string>
+    <string name="entering">Saapuva</string>
+    <string name="output">Tulos</string>
+    <string name="leaving">Lähtevä</string>
+    <string name="setasdefaults">Asetukset</string>
+    <string name="processloads">Kuormitus</string>
+    <string name="total">Yhteensä</string>
+    <string name="btuh">Btuh</string>
+    <string name="tons">Tonnia</string>
+    <string name="sensible">Järkevä</string>
+    <string name="lbhr">lb/hr</string>
+    <string name="moisture">Kosteus</string>
+    <string name="latent">Piilevä</string>
+    <string name="airstreama">Ilmavirta A</string>
+    <string name="airstreamb">Ilmavirta B</string>
+    <string name="mixedair">Sekoitettu ilma</string>
+    <string name="point">Tiedot</string>
+    <string name="mixing">Sekoitus</string>
+    <string name="process">Prosessi</string>
+    <string name="settings">Asetukset</string>
+    <string name="info">Info</string>
+    <string name="exceedslimits">***Ylärajat***</string>
+    <string name="kw">kW</string>
+    <string name="kghr">kg/hr</string>
+
+   
+    <string-array name="USInput3">
+    	<item>Alt in Ft</item>
+    	<item>Inch H2O</item>
+    	<item>Inch Hg</item>
+    	<item>psia</item>
+    	</string-array>
+  
+	<string-array name="USInput12">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item> 	
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+	</string-array> 
+	
+	<string-array name="USOutput">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item>
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+    	<item>"ft\u00B3/lb"</item>
+    	<item>in Hg vp</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"gr/ft\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="USAirFlowRate">
+	    <item>SCFM</item>
+    	<item>ACFM</item>
+	</string-array> 
+   
+ 	<string-array name="MetricInput3">
+    	<item>Alt in m</item>
+    	<item>mm H2O</item>
+    	<item>mm Hg</item>
+    	<item>kPa</item>
+    	</string-array>
+  
+	<string-array name="MetricInput12">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+	</string-array> 
+	
+	<string-array name="MetricOutput">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+    	<item>"m\u00B3/kg"</item>
+    	<item>kPa VP</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"g/m\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="MetricAirFlowRate">
+	    <item>SCMH</item>
+    	<item>ACMH</item>
+	</string-array> 
+</resources>

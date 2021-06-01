@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:fillViewport="true">
+
+	    <LinearLayout
+	     android:id="@+id/vLayoutMain"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="vertical" 
+	     android:layout_gravity="center_horizontal"
+	     android:background="@drawable/background">
+     
+			<TextView
+                  android:id="@+id/textBlanks1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                   android:text="@string/blanks" android:layout_gravity="center"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+				<TextView
+                  android:id="@+id/textBlanks2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                   android:text="@string/blanks" android:layout_gravity="center"
+                  android:textAppearance="?android:attr/textAppearanceLarge" />
+				  
+   		<LinearLayout
+          android:id="@+id/hLayoutAltitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" 
+          android:layout_gravity="center_horizontal">
+          	<EditText
+              android:id="@+id/altEntry"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="0" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp"/>
+          	<Spinner
+              android:id="@+id/altChoices"
+              android:layout_width="120dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+			  android:textSize="12sp"
+              android:background="@android:drawable/btn_default" />
+		</LinearLayout>
+
+     	<LinearLayout
+          android:id="@+id/hLayoutTitleAB"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+	   		<TextView
+	         android:id="@+id/airstreamALabel"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/airstreama" 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+	   		<TextView
+	         android:id="@+id/blank1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="  " 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+	      	<TextView
+	         android:id="@+id/airstreamBLabel"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/airstreamb" 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+		</LinearLayout> 
+   
+   
+   		<LinearLayout
+        android:id="@+id/hLayout1AB"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+      	 android:layout_gravity="center_horizontal"
+    	android:orientation="horizontal" >
+
+       		<EditText
+       		    android:id="@+id/air1AEntry"
+       		    android:layout_width="55dp"
+       		    android:layout_height="40dp"
+       		    android:textStyle="bold"
+       		    android:ems="4"
+       		    android:inputType="numberDecimal"
+       		    android:text="70"
+       		    android:imeOptions="actionDone"
+       		    android:textSize="12sp" />
+
+          <Spinner
+              android:id="@+id/air1AChoices"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+
+           <EditText
+               android:id="@+id/air1BEntry"
+               android:layout_width="55dp"
+               android:layout_height="40dp"
+               android:textStyle="bold"
+               android:ems="4"
+               android:inputType="numberDecimal"
+               android:text="70"
+               android:imeOptions="actionDone"
+               android:textSize="12sp" />
+
+          <Spinner
+              android:id="@+id/air1BChoices"
+              android:layout_width="75dp"
+              android:layout_height="40dp"
+              android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+
+		</LinearLayout>
+		
+		<LinearLayout
+          android:id="@+id/hLayout2AB"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+			<EditText
+              android:id="@+id/air2AEntry"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="58" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/air2AChoices"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+          	<EditText
+              android:id="@+id/air2BEntry"
+              android:layout_width="55dp"
+              android:layout_height="40dp"
+              android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="58" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/air2BChoices"
+              android:layout_width="75dp"
+              android:layout_height="40dp"
+              android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+	
+   		
+		<LinearLayout
+          android:id="@+id/hLayoutRatioAB"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+
+          <EditText
+              android:id="@+id/airARatioEntry"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="100" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/airARatioChoices"
+              android:layout_width="75dp"
+              android:layout_height="40dp"
+              android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+          <EditText
+              android:id="@+id/airBRatioEntry"
+              android:layout_width="55dp"
+       		  android:layout_height="40dp"
+       		  android:textStyle="bold"
+              android:inputType="numberDecimal"
+              android:text="100" android:ems="4"
+              android:imeOptions="actionDone"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/airBRatioChoices"
+              android:layout_width="75dp"
+              android:layout_height="40dp"
+              android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />       
+		</LinearLayout>
+
+
+
+  		<LinearLayout
+          android:id="@+id/hLayoutMixedAirLabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+   			<TextView
+	         android:id="@+id/mixedAirLabel"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/mixedair" 
+	         android:textAppearance="?android:attr/textAppearanceLarge" />
+		</LinearLayout> 
+  
+  		<LinearLayout
+          android:id="@+id/hLayoutMixed1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          	<EditText
+              android:id="@+id/mixed1Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:text="200" android:ems="4"
+              android:inputType="none"
+              android:editable="false"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/mixed1Choices"
+              android:layout_width="80dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+ 		<LinearLayout
+          android:id="@+id/hLayoutMixed2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/mixed2Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:text="70" android:ems="4"
+              android:inputType="none"
+              android:editable="false"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/mixed2Choices"
+              android:layout_width="80dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+ 		<LinearLayout
+          android:id="@+id/hLayoutMixed3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          	<EditText
+              android:id="@+id/mixed3Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:text="58" android:ems="4"
+              android:inputType="none"
+              android:editable="false"
+              android:textSize="12sp" />
+          	<Spinner
+              android:id="@+id/mixed3Choices"
+              android:layout_width="80dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+  		<LinearLayout
+          android:id="@+id/hLayoutMixed4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/mixed4Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:text="48.35" android:ems="4"
+              android:inputType="none"
+              android:editable="false"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/mixed4Choices"
+              android:layout_width="80dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+  		<LinearLayout
+          android:id="@+id/hLayoutMixed5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+          android:orientation="horizontal" >
+          <EditText
+              android:id="@+id/mixed5Label"
+              android:layout_width="75dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:text="25.04" android:ems="4"
+              android:inputType="none"
+              android:editable="false"
+              android:textSize="12sp" />
+          <Spinner
+              android:id="@+id/mixed5Choices"
+              android:layout_width="80dp"
+			  android:layout_height="40dp"
+			  android:textStyle="bold"
+              android:background="@android:drawable/btn_default"
+              android:textSize="12sp" />
+		</LinearLayout>
+ 
+    </LinearLayout>
+</ScrollView>

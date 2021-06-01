@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "linric.psycit"
+        minSdkVersion 10
+        targetSdkVersion 30
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            //proguardFiles getDefaultProguardFile('	oolsproguardproguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}

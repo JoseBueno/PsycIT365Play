@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="input">Zadání</string>
+    <string name="entering">Vstupující</string>
+    <string name="output">Výsledek</string>
+    <string name="leaving">Vystupující</string>
+    <string name="setasdefaults">Nastav jako výchozí</string>
+    <string name="processloads">Procesní zatížení</string>
+    <string name="total">Total</string>
+    <string name="btuh">Btuh</string>
+    <string name="tons">Tons</string>
+    <string name="sensible">Sensible</string>
+    <string name="lbhr">lb/hr</string>
+    <string name="moisture">Vlhkost</string>
+    <string name="latent">Latent</string>
+    <string name="airstreama">Průtok A</string>
+    <string name="airstreamb">Průtok B</string>
+    <string name="mixedair">Směs vzduchu</string>
+    <string name="point">Bod</string>
+    <string name="mixing">Směšování</string>
+    <string name="process">Proces</string>
+    <string name="settings">Nastavení</string>
+    <string name="info">Informace</string>
+    <string name="exceedslimits">***Překročení limitu***</string>
+    <string name="kw">kW</string>
+    <string name="kghr">kg/hr</string>
+
+   
+    <string-array name="USInput3">
+    	<item>Alt in Ft</item>
+    	<item>Inch H2O</item>
+    	<item>Inch Hg</item>
+    	<item>psia</item>
+    	</string-array>
+  
+	<string-array name="USInput12">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item> 	
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+	</string-array> 
+	
+	<string-array name="USOutput">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item>
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+    	<item>"ft\u00B3/lb"</item>
+    	<item>in Hg vp</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"gr/ft\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="USAirFlowRate">
+	    <item>SCFM</item>
+    	<item>ACFM</item>
+	</string-array> 
+   
+ 	<string-array name="MetricInput3">
+    	<item>Alt in m</item>
+    	<item>mm H2O</item>
+    	<item>mm Hg</item>
+    	<item>kPa</item>
+    	</string-array>
+  
+	<string-array name="MetricInput12">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+	</string-array> 
+	
+	<string-array name="MetricOutput">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+    	<item>"m\u00B3/kg"</item>
+    	<item>kPa VP</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"g/m\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="MetricAirFlowRate">
+	    <item>SCMH</item>
+    	<item>ACMH</item>
+	</string-array> 
+	
+<string name = "psyCalcInfo">\n
+    Psychrometrie je nauka o směsi vzduchu a vodní 
+    páry; teplota, relativní vlhkost a rosný bod 
+    jsou společné psychrometrické veličiny. Psyc-It 
+    dává uživateli přímý přístup k těmto a dalšímh 
+    osmi veličinám.\n
+    \n
+Psyc-It je používán tisíci uživateli na jejich\n 
+desktop počítačích. Tyto využívají nejrozšířenějí\n
+akceptované psychrometrické algoritmy a umožňuje\n 
+snadné použití s okamžitým výsledkem.\n
+\n
+Point tab - hledá psychrometrické vlastnosti.\n
+Mixing tab - provádí směšovací výpočty.\n
+Process tab - bod po bodu výpočty zátěží .\n
+Defaults tab - provede výchozí nastavení.\n
+\n
+Tato verze Psyc-It pracuje stejně tak, jako 
+předchozí desktopové verze. Zvolte typ proměnné 
+vpravo pro každou proměnnou hodnotu. Zadejte 
+proměnné hodnoty. Výsledek se zobrazí ihned 
+po každé změně.\n
+\n
+\'Překročení limitu\' je zobrazeno pokud 
+je výpočet mimo mezní hodnoty nebo je výpočet 
+nedostupný.\n
+\n
+Vlastnosti vzduchu a vodní páry v Psyc-It:\n
+Psychrometrické -\n
+....°Fdb / °Cdb - Teplota suchého teploměru\n
+....°Fwb / °Cwb - Teplota vlhkého teploměru\n
+....%RH - Relativní vlhkost\n
+....Btu/lb / kJ/kg - Entalpie\n
+....°Fdp / °Cdp - Teplota rosného bodu\n
+....gr/lb / g/kg - Měrná vlhkost\n
+....ft³/lb - m³/kg - Měrný objem\n
+....in Hg VP / mm Hg VP - Tlak páry\n
+....lb/ft³ / kg/m³ - Hustota\n
+....PPMw - Hmotnostní část v milionu\n
+....PPMv - Objemová část v  milionu\n
+....gr/ft³ / g/m³ - Absolutní vlhkost\n
+\n
+Tlak -\n
+....m.n.m.  Ft / m - nadmořská výška.\n
+....psia / kPa - Absolutní tlak.\n
+\n
+Psyc-It limity -\n
+Omezení programu Psyc-It jsou:\n
+Teplota suchého teploměru: °F / °C\n
+....-80 to 1500  /  -62.2 to 815.5\n
+Teplota rosného bodu: °F / °C\n
+....-80 to 200  /  -62.2 to 93.3\n
+Absolutní tlak: psia / kPa\n
+....0.7 to 400  13.8 to 2757\n
+\n
+Jelikož jsou všechny výpočty, které popisují 
+fyzikální jevy, do značné míry výsledkem 
+aproximací, měli by uživatelé mít vždy na vědomí, 
+že nástroje, jako je Psyc-It, přinášejí výsledky 
+s dostatečnou přesností odpovídající jejich potřebám.
+</string>
+</resources>

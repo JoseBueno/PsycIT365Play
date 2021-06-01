@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PsycIt</string>
+    <string name="input">Input</string>
+    <string name="entering">Entering</string>
+    <string name="output">Output</string>
+    <string name="leaving">Leaving</string>
+    <string name="setasdefaults">Set As Defaults</string>
+    <string name="processloads">Process Loads</string>
+    <string name="total">Total</string>
+    <string name="btuh">Btuh</string>
+    <string name="tons">Tons</string>
+    <string name="sensible">Sensible</string>
+    <string name="lbhr">lb/hr</string>
+    <string name="moisture">Moisture</string>
+    <string name="latent">Latent</string>
+    <string name="airstreama">Airstream A</string>
+    <string name="airstreamb">Airstream B</string>
+    <string name="mixedair">Mixed Air</string>
+    <string name="point">Point</string>
+    <string name="mixing">Mixing</string>
+    <string name="process">Process</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="exceedslimits">***Exceeds Limits***</string>
+    <string name="kw">kW</string>
+    <string name="kghr">kg/hr</string>
+
+   
+    <string-array name="USInput3">
+    	<item>Alt in Ft</item>
+    	<item>Inch H2O</item>
+    	<item>Inch Hg</item>
+    	<item>psia</item>
+    	</string-array>
+  
+	<string-array name="USInput12">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item> 	
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+	</string-array> 
+	
+	<string-array name="USOutput">
+	    <item>°F db</item>
+    	<item>°F wb</item>
+    	<item>%RH</item>
+    	<item>Btu/lb</item>
+    	<item>°F dp</item>
+    	<item>gr/lb</item>
+    	<item>"ft\u00B3/lb"</item>
+    	<item>in Hg vp</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"gr/ft\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="USAirFlowRate">
+	    <item>SCFM</item>
+    	<item>ACFM</item>
+	</string-array> 
+   
+ 	<string-array name="MetricInput3">
+    	<item>Alt in m</item>
+    	<item>mm H2O</item>
+    	<item>mm Hg</item>
+    	<item>kPa</item>
+    	</string-array>
+  
+	<string-array name="MetricInput12">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+	</string-array> 
+	
+	<string-array name="MetricOutput">
+	    <item>°C db</item>
+    	<item>°C wb</item>
+    	<item>%RH</item>
+    	<item>kJ/kg</item>
+    	<item>°C dp</item>
+    	<item>g/kg</item>
+    	<item>"m\u00B3/kg"</item>
+    	<item>kPa VP</item>
+    	<item>PPMw</item>
+    	<item>PPMv</item>
+    	<item>"g/m\u00B3"</item>
+	</string-array> 
+
+	 <string-array name="MetricAirFlowRate">
+	    <item>SCMH</item>
+    	<item>ACMH</item>
+	</string-array> 
+	
+<string name = "psyCalcInfo">\n
+Psychrometrics is the study of air and water 
+vapor mixtures; temperature, relative humidity and 
+dew point are some common psychrometric properties. 
+Psyc-It gives the user direct access to these and 
+eight additional properties.\n
+\n
+Point tab - find psychrometric properties.\n
+Mixing tab - perform air mixing calculations.\n
+Process tab - point-to-point load calculations.\n
+Settings tab - set start up defaults.\n
+\n
+To use Psyc-It set input property types using the button 
+to the right of each value. Enter input property values. 
+Results update immediately upon any change.\n
+\n
+\'Exceeds Limits\' is displayed if the calculation
+is beyond limits or unavailable.\n
+\n
+Air and Water Vapor Properties in Psyc-It\n
+Psychrometric -\n
+....°Fdb / °Cdb - Dry Bulb Temperature\n
+....°Fwb / °Cwb - Wet Bulb Temperature\n
+....%RH - Relative Humidity\n
+....Btu/lb / kJ/kg - Enthalpy\n
+....°Fdp / °Cdp - Dew Point Temperature\n
+....gr/lb / g/kg - Humidity Ratio\n
+....ft≥/lb - m≥/kg - Specific Volume\n
+....in Hg VP / mm Hg VP - Vapor Pressure\n
+....lb/ft³ / kg/m³ - Density\n
+....PPMw - Parts Per Million by weight\n
+....PPMv - Parts Per Million by volume\n
+....gr/ft³ / g/m³ - Absolute Humidity\n
+\n
+Pressure -\n
+....Alt in Ft / m - Altitude (elevation).\n
+....psia / kPa - Absolute Pressure.\n
+\n
+Psyc-It Limits -\n
+Dry bulb Temperature: °F / °C\n
+....-80 to 1500  /  -62.2 to 815.5\n
+Dew Point Temperature: °F / °C \n
+....-80 to 200  /  -62.2 to 93.3\n
+Absolute Pressure: psia / kPa  \n
+....0.7 to 400  13.8 to 2757\n
+\n
+Psyc-It uses the same psychrometric function 
+calculation engine developed by Jim Judge, 
+PE for Linric Company products such as PsyCalc® and PsycPro®.\n
+\n
+Because all calculations that model physical
+phenomenon are to some extent approximations
+users should always check to see that tools such 
+as Psyc-It return results accurate enough for
+the users needs.</string>
+<string name="blanks">  </string>
+</resources>
